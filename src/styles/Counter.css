@@ -1,0 +1,12 @@
+.counter-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+  

@@ -1,0 +1,79 @@
+/* Container for the counter component */
+.counter-container {
+    background-color: #f9f9f9; /* Light gray background */
+    padding: 40px;
+    max-width: 400px;
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    font-family: 'Roboto', sans-serif; /* Changed font family */
+  }
+  
+  /* Heading (count number) styling */
+  .counter-container h1 {
+    font-size: 4rem;
+    color: #ff7043; /* Orange color for the number */
+    margin: 20px 0;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    background-color: #ffe0b2; /* Light orange background for the number */
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  /* Button styling */
+  .counter-container button {
+    font-size: 1.5rem;
+    padding: 12px 20px;
+    margin: 10px;
+    border: none;
+    background-color: #8bc34a; /* Green color for buttons */
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+  }
+  
+  /* Button hover effects */
+  .counter-container button:hover {
+    background-color: #689f38; /* Darker green */
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Button active effects (when clicked) */
+  .counter-container button:active {
+    transform: translateY(2px);
+  }
+  
+  /* Reset button styling with a distinct color */
+  .counter-container button:nth-child(2) {
+    background-color: #f44336; /* Red color for Reset button */
+  }
+  
+  .counter-container button:nth-child(2):hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Add some focus and blur effects */
+  .counter-container button:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(63, 81, 181, 0.6); /* Indigo focus */
+  }
+  
+  /* Smooth color transition for the counter background */
+  .counter-container {
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Dynamic background color based on the count */
+  .counter-container h1 {
+    background-color: rgba(255, 224, 178, 0.3); /* Light orange tint */
+  }
+  
+  .counter-container h1 {
+    background-color: rgba(255, 224, 178, 0.3); /* Light orange tint */
+  }
+  

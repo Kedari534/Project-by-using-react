@@ -1,0 +1,44 @@
+/* Container for the rich text editor */
+.rich-text-editor-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 50px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Editor styling */
+  .rdw-editor-wrapper {
+    border: 1px solid #d1d1d1;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #fafafa;
+  }
+  
+  /* Editor toolbar styling */
+  .rdw-editor-toolbar {
+    background-color: #3f51b5; /* Indigo color for the toolbar */
+    border-radius: 8px 8px 0 0;
+    padding: 10px;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  /* Button hover effect on the toolbar */
+  .rdw-option-wrapper:hover {
+    background-color: #283593; /* Darker shade of indigo for hover effect */
+    border-radius: 5px;
+  }
+  
+  /* Editor content styling */
+  .rdw-editor-main {
+    font-size: 1rem;
+    color: #333;
+    min-height: 200px;
+    line-height: 1.5;
+    overflow-y: auto;
+    padding: 10px;
+  }
+  

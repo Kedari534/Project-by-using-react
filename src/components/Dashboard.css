@@ -1,0 +1,53 @@
+.dashboard-container {
+    background-color: #e0f7fa; /* Light cyan background for a fresh look */
+    padding: 30px;
+    max-width: 600px;
+    margin: 50px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-container h2 {
+    color: #3F51B5; /* Indigo color for the heading */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-container p {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 12px 0;
+  }
+  
+  .dashboard-container strong {
+    color: #263238; /* Darker shade for strong text */
+  }
+  
+  .dashboard-container .user-info {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add vibrant accent colors */
+  .dashboard-container .user-info p {
+    border-left: 4px solid #673AB7; /* Purple accent line */
+    padding-left: 15px;
+    margin-bottom: 16px;
+  }
+  
+  .dashboard-container .user-info p:nth-child(odd) {
+    background-color: #f3e5f5; /* Light purple for odd rows */
+  }
+  
+  .dashboard-container .user-info p:nth-child(even) {
+    background-color: #f1f8e9; /* Light green for even rows */
+  }
+  
+  .dashboard-container .user-info p:hover {
+    background-color: #c5cae9; /* Soft blue hover effect */
+    transition: background-color 0.3s ease;
+  }
+  
